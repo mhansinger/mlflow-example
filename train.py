@@ -15,6 +15,8 @@ from sklearn.linear_model import ElasticNet
 import mlflow
 import mlflow.sklearn
 
+from eval_metrics import eval_metrics
+
 
 # def eval_metrics(actual, pred):
 #     rmse = np.sqrt(mean_squared_error(actual, pred))
